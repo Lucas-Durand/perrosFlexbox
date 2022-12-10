@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html"> Volver a la home</a></li>
+                <li><a href="perritos_intendencia.html"> Perrritos de la intendencia</a></li>
+                <li><a href="Perritos_sarmiento.html"> Perritos del sarmiento </a> </li>
+                <li><a href="Perritos_general_paz.html"> Perritos de General Paz </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+         <!--FORMULARIOS-->
+
+         <form>
+            <!--fieldset da estructura al formulario, solo sirve para esto-->
+            <fieldset>
+                <legend> Envia tus datos </legend>
+                <div>
+                    <!--Imput son los campos que el usario tiene para agregar ese contenido-->
+
+                    <!--Label es la información que tiene para completar el usuario-->
+
+                    <label for="nombre">
+                        Completa tu nombre
+                        <!--la pareja de label para que funcione es input y hay que asociarlo agregando name, y en el name "nombre", así son los mismos y con placeholder agregamos un ayuda memmoria-->
+                    </label>
+                    <input type="text" name="nombre" placeholder=" Ingresa tu nombre">
+                </div>
+
+                <div>
+                    <label for="mail">
+                        Completa tu email
+                    </label>
+                    <input type="email" name="mail" placeholder="Ingresa tu email">
+                </div>
+
+                <div>
+                    <label for="pais">
+                        seleccione tu pais
+                    </label>
+                    <!-- La otra pareja que puede tener label es select-->
+                    <select name="pais" id="">
+                        <option value=" Argentina"> Argentina</option>
+                        <option value=" Brasil"> Brasil</option>
+                        <option value=" Chile"> Chile</option>
+                    </select>
+                </div>
+
+                    <!--Creamos botones-->
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetear"> 
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <section>
+         <!--Etiqueta para crear una table-->
+
+        <!-- Esto podria servir como para hacer un cronograma en un gimnasio-->
+
+        <table border="1" cellpading="10">
+            <tbody>
+                <!-- creamos una fila-->
+                <tr>
+                    <!--etiqueta para columna-->
+                    <td>Opción 1</td>
+                    <td>Opción 2</td>
+                    <td>Opción 3</td>
+                </tr>
+
+                <tr>
+                    <td>Opcion 4</td>
+                    <td>Opción 5</td>
+                    <td>Opción 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <h4>
+        <a href="https://elrefugio.org/adopta/perros" target="_blank"> El amor no se compra, adopta</a>
+        </h4>
+        <h5>Pagina realizada por Lucas Durand 2022</h5>
+    </footer>
+</body>
+</html>
